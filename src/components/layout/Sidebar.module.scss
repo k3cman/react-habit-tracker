@@ -1,0 +1,14 @@
+.sidebarWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  div {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
